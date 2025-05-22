@@ -1,0 +1,16 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "First post",
+      "body": "This is my first post on JS/React Project",
+      "userId": 1
+    },
+    {
+      "id": "2",
+      "title": "Second post",
+      "body": "This is my second post on React",
+      "userId": 1
+    }
+  ]
+}

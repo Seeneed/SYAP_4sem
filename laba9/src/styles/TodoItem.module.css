@@ -1,0 +1,68 @@
+.item {
+    display: flex;
+    align-items: center;
+    padding: 12px 15px;
+    border-bottom: 1px solid #eee;
+    background-color: #fff;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    transition: background-color 0.2s ease;
+  }
+  
+  .item:last-child {
+    border-bottom: none;
+  }
+  
+  .item:hover {
+      background-color: #f1f1f1;
+  }
+  
+  .checkbox {
+    margin-right: 15px;
+    cursor: pointer;
+    transform: scale(1.2);
+  }
+  
+  .text {
+    flex-grow: 1;
+    font-size: 1rem;
+    color: #333;
+    transition: color 0.2s ease;
+  }
+  
+  .completed .text {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 8px;
+    margin-left: 15px;
+  }
+  
+  .button {
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    color: #333;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+  }
+  
+  .button:hover {
+    background-color: #e9ecef;
+    border-color: #bbb;
+  }
+  
+  .deleteButton {
+    border-color: #dc3545;
+    color: #dc3545;
+  }
+  
+  .deleteButton:hover {
+    background-color: #dc3545;
+    color: white;
+  }
